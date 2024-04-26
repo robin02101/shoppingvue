@@ -36,7 +36,7 @@ export default {
 
 },
   mounted(){
-        this.fetchData();
+        // this.fetchData();
       if(localStorage.getItem('buyArr')){
       this.buyArr = JSON.parse(localStorage.getItem('buyArr'));
 
